@@ -1,0 +1,221 @@
+
+
+
+form
+{
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+    width: 50%;
+    margin: 0% auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 1%;
+    background-color: #003049eb;
+}
+
+main
+{
+    
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+label{
+    font-size: 14px;
+    color:white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.InputIme
+{
+    
+    padding:10px;
+    display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-items: center;
+        width:100%;
+}
+.InputEmail
+{
+    padding:10px;
+    display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-items: center;
+        width:100%;
+}
+.InputSifra
+{
+    
+    padding:10px;
+    display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-items: center;
+        width:100%;
+}
+
+.input
+{
+   margin-right: 20px;
+    width: 200px;
+    border-radius: 20px ;
+    padding: 5px;
+}
+.PonoviSifru
+{
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+}
+.Posalji
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#dugme
+{
+    width: 100px;
+    height:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.sl
+{
+    margin-left: 47%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+.instagram
+{
+    margin-top: 2%;
+    height:50px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.email
+{
+    margin-top: 2%;
+    height:50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.linkedIn
+{
+    margin-top: 2%;
+    height:50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.slikaEmaila
+{
+    width: 100%;
+    height:50px
+}
+.slikaInstagrama
+{
+    width: 100%;
+    height:50px;
+}
+.slikaLinkedIn
+{
+   
+    width: 100%;
+    height:50px;
+}
+p
+{
+    color:black;
+    font-size: 18px;
+    margin: 0%;
+}
+
+
+
+
+
+@media screen and (max-width:426px) {
+   
+    .PonoviSifru
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .InputEmail
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .InputIme
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .InputSifra
+    {justify-content: center;
+        align-items: center;
+    }
+   
+ 
+    .instagram1
+    {
+        display: flex;
+    }
+    .LinkedIn1
+    {
+        display: flex;
+    }
+   
+}
+@media screen and (min-width:1023px) {
+
+    .PonoviSifru
+    {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .InputEmail
+    {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .InputIme
+    {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .InputSifra
+    {justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .slikaEmaila
+    {
+        margin-top: 3%;
+    }
+}
